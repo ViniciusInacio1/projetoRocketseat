@@ -67,7 +67,7 @@ body * {
   border: 0;
   border-radius: 50%;
   position: absolute;
-  animation: slide-back .4s forwards initial;
+  animation: slide-back .4s forwards;
   z-index: 1;
 
   transform: translateY(-50%);
