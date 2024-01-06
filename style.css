@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-/* themes of page */
-/* ROOT: normal mode(html), "dark" */
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
@@ -26,15 +24,6 @@
 }
 
 body {
-  /*  
-  background-image: url(./assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  */
-
-  /* SHORTHANDS(forma abreviada) ou atalho*/
-  /*background: color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover ;
 }
 body * {
