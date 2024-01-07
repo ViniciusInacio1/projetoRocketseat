@@ -46,6 +46,9 @@ body * {
 }
 #profile img {
   width: 112px;
+  background-color: var(--highlight-color);
+  border-radius: 50%;
+  padding: 10px;
 }
 #profile p {
   font-weight: 500;
